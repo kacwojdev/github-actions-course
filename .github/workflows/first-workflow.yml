@@ -12,3 +12,5 @@ jobs:
           echo "Seconf line"
       - name: print bye message
         run: echo "Bye!"
+      - name: last step
+	run: echo "This is last step"
