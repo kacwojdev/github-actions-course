@@ -1,0 +1,14 @@
+name: first-workflow
+on: github-dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello message
+        run: echo "Hello world!"
+      - name: multiple scripts
+        run: |
+          echo "First line"
+          echo "Seconf line"
+      - name: print bye message
+        run: echo "Bye!"
